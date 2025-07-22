@@ -1,0 +1,49 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #005f73;
+  color: white;
+  text-align: center;
+  padding: 2em 1em;
+}
+.download-resume {
+  color: #fff;
+  background: #0a9396;
+  padding: 0.5em 1em;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 1em;
+}
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+section {
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+}
+.project-card, .cert {
+  display: flex;
+  align-items: center;
+  background: #e0fbfc;
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 8px;
+}
+.project-card img, .cert img {
+  width: 120px;
+  height: auto;
+  margin-right: 1em;
+  border-radius: 8px;
+}
